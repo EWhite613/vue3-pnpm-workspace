@@ -4,9 +4,9 @@ importers:
 
   .:
     specifiers:
-      pnpm: ^7.1.6
+      pnpm: ^8.14.3
     devDependencies:
-      pnpm: 7.1.6
+      pnpm: 8.14.3
 
   apps/application1:
     specifiers:
@@ -111,10 +111,10 @@ importers:
       vue-eslint-parser: ^9.0.2
       vue-tsc: ^0.34.16
     dependencies:
-      '@monotest/composables': link:../composables
       sass: 1.52.1
       vue: 3.2.36
     devDependencies:
+      '@monotest/composables': link:../composables
       '@vitejs/plugin-vue': 2.3.3_vite@2.9.9+vue@3.2.36
       eslint: 8.16.0
       typescript: 4.7.2
@@ -372,7 +372,7 @@ packages:
       vite: ^2.5.10
       vue: ^3.2.25
     dependencies:
-      vite: 2.9.9_sass@1.52.1
+      vite: 2.9.9
       vue: 3.2.36
     dev: true
 
@@ -700,7 +700,7 @@ packages:
     dev: true
 
   /esbuild-android-64/0.14.39:
-    resolution: {integrity: sha512-EJOu04p9WgZk0UoKTqLId9VnIsotmI/Z98EXrKURGb3LPNunkeffqQIkjS2cAvidh+OK5uVrXaIP229zK6GvhQ==}
+    resolution: {integrity: sha512-EJOu04p9WgZk0UoKTqLId9VnIsotmI/Z98EXrKURGb3LPNunkeffqQIkjS2cAvidh+OK5uVrXaIP229zK6GvhQ==, tarball: https://artifactory.ciena.com/artifactory/api/npm/blueplanet-npm/esbuild-android-64/-/esbuild-android-64-0.14.39.tgz}
     engines: {node: '>=12'}
     cpu: [x64]
     os: [android]
@@ -709,7 +709,7 @@ packages:
     optional: true
 
   /esbuild-android-arm64/0.14.39:
-    resolution: {integrity: sha512-+twajJqO7n3MrCz9e+2lVOnFplRsaGRwsq1KL/uOy7xK7QdRSprRQcObGDeDZUZsacD5gUkk6OiHiYp6RzU3CA==}
+    resolution: {integrity: sha512-+twajJqO7n3MrCz9e+2lVOnFplRsaGRwsq1KL/uOy7xK7QdRSprRQcObGDeDZUZsacD5gUkk6OiHiYp6RzU3CA==, tarball: https://artifactory.ciena.com/artifactory/api/npm/blueplanet-npm/esbuild-android-arm64/-/esbuild-android-arm64-0.14.39.tgz}
     engines: {node: '>=12'}
     cpu: [arm64]
     os: [android]
@@ -718,7 +718,7 @@ packages:
     optional: true
 
   /esbuild-darwin-64/0.14.39:
-    resolution: {integrity: sha512-ImT6eUw3kcGcHoUxEcdBpi6LfTRWaV6+qf32iYYAfwOeV+XaQ/Xp5XQIBiijLeo+LpGci9M0FVec09nUw41a5g==}
+    resolution: {integrity: sha512-ImT6eUw3kcGcHoUxEcdBpi6LfTRWaV6+qf32iYYAfwOeV+XaQ/Xp5XQIBiijLeo+LpGci9M0FVec09nUw41a5g==, tarball: https://artifactory.ciena.com/artifactory/api/npm/blueplanet-npm/esbuild-darwin-64/-/esbuild-darwin-64-0.14.39.tgz}
     engines: {node: '>=12'}
     cpu: [x64]
     os: [darwin]
@@ -727,7 +727,7 @@ packages:
     optional: true
 
   /esbuild-darwin-arm64/0.14.39:
-    resolution: {integrity: sha512-/fcQ5UhE05OiT+bW5v7/up1bDsnvaRZPJxXwzXsMRrr7rZqPa85vayrD723oWMT64dhrgWeA3FIneF8yER0XTw==}
+    resolution: {integrity: sha512-/fcQ5UhE05OiT+bW5v7/up1bDsnvaRZPJxXwzXsMRrr7rZqPa85vayrD723oWMT64dhrgWeA3FIneF8yER0XTw==, tarball: https://artifactory.ciena.com/artifactory/api/npm/blueplanet-npm/esbuild-darwin-arm64/-/esbuild-darwin-arm64-0.14.39.tgz}
     engines: {node: '>=12'}
     cpu: [arm64]
     os: [darwin]
@@ -736,7 +736,7 @@ packages:
     optional: true
 
   /esbuild-freebsd-64/0.14.39:
-    resolution: {integrity: sha512-oMNH8lJI4wtgN5oxuFP7BQ22vgB/e3Tl5Woehcd6i2r6F3TszpCnNl8wo2d/KvyQ4zvLvCWAlRciumhQg88+kQ==}
+    resolution: {integrity: sha512-oMNH8lJI4wtgN5oxuFP7BQ22vgB/e3Tl5Woehcd6i2r6F3TszpCnNl8wo2d/KvyQ4zvLvCWAlRciumhQg88+kQ==, tarball: https://artifactory.ciena.com/artifactory/api/npm/blueplanet-npm/esbuild-freebsd-64/-/esbuild-freebsd-64-0.14.39.tgz}
     engines: {node: '>=12'}
     cpu: [x64]
     os: [freebsd]
@@ -745,7 +745,7 @@ packages:
     optional: true
 
   /esbuild-freebsd-arm64/0.14.39:
-    resolution: {integrity: sha512-1GHK7kwk57ukY2yI4ILWKJXaxfr+8HcM/r/JKCGCPziIVlL+Wi7RbJ2OzMcTKZ1HpvEqCTBT/J6cO4ZEwW4Ypg==}
+    resolution: {integrity: sha512-1GHK7kwk57ukY2yI4ILWKJXaxfr+8HcM/r/JKCGCPziIVlL+Wi7RbJ2OzMcTKZ1HpvEqCTBT/J6cO4ZEwW4Ypg==, tarball: https://artifactory.ciena.com/artifactory/api/npm/blueplanet-npm/esbuild-freebsd-arm64/-/esbuild-freebsd-arm64-0.14.39.tgz}
     engines: {node: '>=12'}
     cpu: [arm64]
     os: [freebsd]
@@ -754,7 +754,7 @@ packages:
     optional: true
 
   /esbuild-linux-32/0.14.39:
-    resolution: {integrity: sha512-g97Sbb6g4zfRLIxHgW2pc393DjnkTRMeq3N1rmjDUABxpx8SjocK4jLen+/mq55G46eE2TA0MkJ4R3SpKMu7dg==}
+    resolution: {integrity: sha512-g97Sbb6g4zfRLIxHgW2pc393DjnkTRMeq3N1rmjDUABxpx8SjocK4jLen+/mq55G46eE2TA0MkJ4R3SpKMu7dg==, tarball: https://artifactory.ciena.com/artifactory/api/npm/blueplanet-npm/esbuild-linux-32/-/esbuild-linux-32-0.14.39.tgz}
     engines: {node: '>=12'}
     cpu: [ia32]
     os: [linux]
@@ -763,7 +763,7 @@ packages:
     optional: true
 
   /esbuild-linux-64/0.14.39:
-    resolution: {integrity: sha512-4tcgFDYWdI+UbNMGlua9u1Zhu0N5R6u9tl5WOM8aVnNX143JZoBZLpCuUr5lCKhnD0SCO+5gUyMfupGrHtfggQ==}
+    resolution: {integrity: sha512-4tcgFDYWdI+UbNMGlua9u1Zhu0N5R6u9tl5WOM8aVnNX143JZoBZLpCuUr5lCKhnD0SCO+5gUyMfupGrHtfggQ==, tarball: https://artifactory.ciena.com/artifactory/api/npm/blueplanet-npm/esbuild-linux-64/-/esbuild-linux-64-0.14.39.tgz}
     engines: {node: '>=12'}
     cpu: [x64]
     os: [linux]
@@ -772,7 +772,7 @@ packages:
     optional: true
 
   /esbuild-linux-arm/0.14.39:
-    resolution: {integrity: sha512-t0Hn1kWVx5UpCzAJkKRfHeYOLyFnXwYynIkK54/h3tbMweGI7dj400D1k0Vvtj2u1P+JTRT9tx3AjtLEMmfVBQ==}
+    resolution: {integrity: sha512-t0Hn1kWVx5UpCzAJkKRfHeYOLyFnXwYynIkK54/h3tbMweGI7dj400D1k0Vvtj2u1P+JTRT9tx3AjtLEMmfVBQ==, tarball: https://artifactory.ciena.com/artifactory/api/npm/blueplanet-npm/esbuild-linux-arm/-/esbuild-linux-arm-0.14.39.tgz}
     engines: {node: '>=12'}
     cpu: [arm]
     os: [linux]
@@ -781,7 +781,7 @@ packages:
     optional: true
 
   /esbuild-linux-arm64/0.14.39:
-    resolution: {integrity: sha512-23pc8MlD2D6Px1mV8GMglZlKgwgNKAO8gsgsLLcXWSs9lQsCYkIlMo/2Ycfo5JrDIbLdwgP8D2vpfH2KcBqrDQ==}
+    resolution: {integrity: sha512-23pc8MlD2D6Px1mV8GMglZlKgwgNKAO8gsgsLLcXWSs9lQsCYkIlMo/2Ycfo5JrDIbLdwgP8D2vpfH2KcBqrDQ==, tarball: https://artifactory.ciena.com/artifactory/api/npm/blueplanet-npm/esbuild-linux-arm64/-/esbuild-linux-arm64-0.14.39.tgz}
     engines: {node: '>=12'}
     cpu: [arm64]
     os: [linux]
@@ -790,7 +790,7 @@ packages:
     optional: true
 
   /esbuild-linux-mips64le/0.14.39:
-    resolution: {integrity: sha512-epwlYgVdbmkuRr5n4es3B+yDI0I2e/nxhKejT9H0OLxFAlMkeQZxSpxATpDc9m8NqRci6Kwyb/SfmD1koG2Zuw==}
+    resolution: {integrity: sha512-epwlYgVdbmkuRr5n4es3B+yDI0I2e/nxhKejT9H0OLxFAlMkeQZxSpxATpDc9m8NqRci6Kwyb/SfmD1koG2Zuw==, tarball: https://artifactory.ciena.com/artifactory/api/npm/blueplanet-npm/esbuild-linux-mips64le/-/esbuild-linux-mips64le-0.14.39.tgz}
     engines: {node: '>=12'}
     cpu: [mips64el]
     os: [linux]
@@ -799,7 +799,7 @@ packages:
     optional: true
 
   /esbuild-linux-ppc64le/0.14.39:
-    resolution: {integrity: sha512-W/5ezaq+rQiQBThIjLMNjsuhPHg+ApVAdTz2LvcuesZFMsJoQAW2hutoyg47XxpWi7aEjJGrkS26qCJKhRn3QQ==}
+    resolution: {integrity: sha512-W/5ezaq+rQiQBThIjLMNjsuhPHg+ApVAdTz2LvcuesZFMsJoQAW2hutoyg47XxpWi7aEjJGrkS26qCJKhRn3QQ==, tarball: https://artifactory.ciena.com/artifactory/api/npm/blueplanet-npm/esbuild-linux-ppc64le/-/esbuild-linux-ppc64le-0.14.39.tgz}
     engines: {node: '>=12'}
     cpu: [ppc64]
     os: [linux]
@@ -808,7 +808,7 @@ packages:
     optional: true
 
   /esbuild-linux-riscv64/0.14.39:
-    resolution: {integrity: sha512-IS48xeokcCTKeQIOke2O0t9t14HPvwnZcy+5baG13Z1wxs9ZrC5ig5ypEQQh4QMKxURD5TpCLHw2W42CLuVZaA==}
+    resolution: {integrity: sha512-IS48xeokcCTKeQIOke2O0t9t14HPvwnZcy+5baG13Z1wxs9ZrC5ig5ypEQQh4QMKxURD5TpCLHw2W42CLuVZaA==, tarball: https://artifactory.ciena.com/artifactory/api/npm/blueplanet-npm/esbuild-linux-riscv64/-/esbuild-linux-riscv64-0.14.39.tgz}
     engines: {node: '>=12'}
     cpu: [riscv64]
     os: [linux]
@@ -817,7 +817,7 @@ packages:
     optional: true
 
   /esbuild-linux-s390x/0.14.39:
-    resolution: {integrity: sha512-zEfunpqR8sMomqXhNTFEKDs+ik7HC01m3M60MsEjZOqaywHu5e5682fMsqOlZbesEAAaO9aAtRBsU7CHnSZWyA==}
+    resolution: {integrity: sha512-zEfunpqR8sMomqXhNTFEKDs+ik7HC01m3M60MsEjZOqaywHu5e5682fMsqOlZbesEAAaO9aAtRBsU7CHnSZWyA==, tarball: https://artifactory.ciena.com/artifactory/api/npm/blueplanet-npm/esbuild-linux-s390x/-/esbuild-linux-s390x-0.14.39.tgz}
     engines: {node: '>=12'}
     cpu: [s390x]
     os: [linux]
@@ -826,7 +826,7 @@ packages:
     optional: true
 
   /esbuild-netbsd-64/0.14.39:
-    resolution: {integrity: sha512-Uo2suJBSIlrZCe4E0k75VDIFJWfZy+bOV6ih3T4MVMRJh1lHJ2UyGoaX4bOxomYN3t+IakHPyEoln1+qJ1qYaA==}
+    resolution: {integrity: sha512-Uo2suJBSIlrZCe4E0k75VDIFJWfZy+bOV6ih3T4MVMRJh1lHJ2UyGoaX4bOxomYN3t+IakHPyEoln1+qJ1qYaA==, tarball: https://artifactory.ciena.com/artifactory/api/npm/blueplanet-npm/esbuild-netbsd-64/-/esbuild-netbsd-64-0.14.39.tgz}
     engines: {node: '>=12'}
     cpu: [x64]
     os: [netbsd]
@@ -835,7 +835,7 @@ packages:
     optional: true
 
   /esbuild-openbsd-64/0.14.39:
-    resolution: {integrity: sha512-secQU+EpgUPpYjJe3OecoeGKVvRMLeKUxSMGHnK+aK5uQM3n1FPXNJzyz1LHFOo0WOyw+uoCxBYdM4O10oaCAA==}
+    resolution: {integrity: sha512-secQU+EpgUPpYjJe3OecoeGKVvRMLeKUxSMGHnK+aK5uQM3n1FPXNJzyz1LHFOo0WOyw+uoCxBYdM4O10oaCAA==, tarball: https://artifactory.ciena.com/artifactory/api/npm/blueplanet-npm/esbuild-openbsd-64/-/esbuild-openbsd-64-0.14.39.tgz}
     engines: {node: '>=12'}
     cpu: [x64]
     os: [openbsd]
@@ -844,7 +844,7 @@ packages:
     optional: true
 
   /esbuild-sunos-64/0.14.39:
-    resolution: {integrity: sha512-qHq0t5gePEDm2nqZLb+35p/qkaXVS7oIe32R0ECh2HOdiXXkj/1uQI9IRogGqKkK+QjDG+DhwiUw7QoHur/Rwg==}
+    resolution: {integrity: sha512-qHq0t5gePEDm2nqZLb+35p/qkaXVS7oIe32R0ECh2HOdiXXkj/1uQI9IRogGqKkK+QjDG+DhwiUw7QoHur/Rwg==, tarball: https://artifactory.ciena.com/artifactory/api/npm/blueplanet-npm/esbuild-sunos-64/-/esbuild-sunos-64-0.14.39.tgz}
     engines: {node: '>=12'}
     cpu: [x64]
     os: [sunos]
@@ -853,7 +853,7 @@ packages:
     optional: true
 
   /esbuild-windows-32/0.14.39:
-    resolution: {integrity: sha512-XPjwp2OgtEX0JnOlTgT6E5txbRp6Uw54Isorm3CwOtloJazeIWXuiwK0ONJBVb/CGbiCpS7iP2UahGgd2p1x+Q==}
+    resolution: {integrity: sha512-XPjwp2OgtEX0JnOlTgT6E5txbRp6Uw54Isorm3CwOtloJazeIWXuiwK0ONJBVb/CGbiCpS7iP2UahGgd2p1x+Q==, tarball: https://artifactory.ciena.com/artifactory/api/npm/blueplanet-npm/esbuild-windows-32/-/esbuild-windows-32-0.14.39.tgz}
     engines: {node: '>=12'}
     cpu: [ia32]
     os: [win32]
@@ -862,7 +862,7 @@ packages:
     optional: true
 
   /esbuild-windows-64/0.14.39:
-    resolution: {integrity: sha512-E2wm+5FwCcLpKsBHRw28bSYQw0Ikxb7zIMxw3OPAkiaQhLVr3dnVO8DofmbWhhf6b97bWzg37iSZ45ZDpLw7Ow==}
+    resolution: {integrity: sha512-E2wm+5FwCcLpKsBHRw28bSYQw0Ikxb7zIMxw3OPAkiaQhLVr3dnVO8DofmbWhhf6b97bWzg37iSZ45ZDpLw7Ow==, tarball: https://artifactory.ciena.com/artifactory/api/npm/blueplanet-npm/esbuild-windows-64/-/esbuild-windows-64-0.14.39.tgz}
     engines: {node: '>=12'}
     cpu: [x64]
     os: [win32]
@@ -871,7 +871,7 @@ packages:
     optional: true
 
   /esbuild-windows-arm64/0.14.39:
-    resolution: {integrity: sha512-sBZQz5D+Gd0EQ09tZRnz/PpVdLwvp/ufMtJ1iDFYddDaPpZXKqPyaxfYBLs3ueiaksQ26GGa7sci0OqFzNs7KA==}
+    resolution: {integrity: sha512-sBZQz5D+Gd0EQ09tZRnz/PpVdLwvp/ufMtJ1iDFYddDaPpZXKqPyaxfYBLs3ueiaksQ26GGa7sci0OqFzNs7KA==, tarball: https://artifactory.ciena.com/artifactory/api/npm/blueplanet-npm/esbuild-windows-arm64/-/esbuild-windows-arm64-0.14.39.tgz}
     engines: {node: '>=12'}
     cpu: [arm64]
     os: [win32]
@@ -1156,7 +1156,7 @@ packages:
     dev: true
 
   /fsevents/2.3.2:
-    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
+    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==, tarball: https://artifactory.ciena.com/artifactory/api/npm/blueplanet-npm/fsevents/-/fsevents-2.3.2.tgz}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
     requiresBuild: true
@@ -1442,9 +1442,9 @@ packages:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
 
-  /pnpm/7.1.6:
-    resolution: {integrity: sha512-ZReCitIDPkdJ8DcKqJ2CLvl7FhwOJiDiTN1c5ElaxmCvivptJaRIDd3IDTnydDhVUWk1rtaP5/mK6oktD5WH9A==}
-    engines: {node: '>=14.19'}
+  /pnpm/8.14.3:
+    resolution: {integrity: sha512-w+2A61g74+K37zHrlri5z6oFA+XUTscXUUEgtRh7L5M3NukDjFGlojrVgnkLpB1Kt4RhjIn6fiNl9mZWhdYS7g==, tarball: https://artifactory.ciena.com/artifactory/api/npm/blueplanet-npm/pnpm/-/pnpm-8.14.3.tgz}
+    engines: {node: '>=16.14'}
     hasBin: true
     dev: true
 
@@ -1707,7 +1707,7 @@ packages:
         optional: true
     dependencies:
       chokidar: 3.5.3
-      vite: 2.9.9_sass@1.52.1
+      vite: 2.9.9
       webpack-sources: 3.2.3
       webpack-virtual-modules: 0.4.3
     dev: true

@@ -18,6 +18,6 @@
     "lint": "pnpm -r lint"
   },
   "devDependencies": {
-    "pnpm": "^7.1.6"
+    "pnpm": "^8.14.3"
   }
 }
